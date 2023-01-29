@@ -79,10 +79,10 @@ body{
     justify-content: center;
 }
 
-.container .imgBox h2{
+.container .imgBox h1{
     color: #fff;
     font-weight: 800;
-    letter-spacing: 1em;
+    letter-spacing: 1;
 }
 
 .container .imgBox img{
@@ -92,7 +92,7 @@ body{
 }
 
 .container .imgBox img:hover{
-    transform: scale(1.25) rotate(-15deg);
+    transform: scale(1.25) rotate(-15deg) translateX(20px);
 }
 
 
